@@ -30,4 +30,20 @@ class FrontendController extends Controller
     {
         return redirect()->back();
     }
+
+    public function becomePartners(Request $request)
+    {
+        $request->validate([
+            'captcha' => 'required|captcha'
+        ]);
+        return redirect()->back();
+    }
+
+    public function aboutPartners()
+    {
+        $countries = Country::all();
+        return view('frontend.partners', [
+            'countries' => $countries
+        ]);
+    }
 }

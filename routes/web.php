@@ -15,8 +15,12 @@
 Route::get('/', 'FrontendController@index')->name('frontend.index');
 Route::get('/leave-application', 'FrontendController@leaveApplication')->name('frontend.application');
 Route::get('/about-forum', 'FrontendController@aboutForum')->name('frontend.about-form');
+Route::get('/become-partners', 'FrontendController@aboutPartners')->name('frontend.become-partners');
 Route::post('/leave-application/create', 'FrontendController@createApplication')->name('frontend.application-create');
 
+Route::get('/refresh-captcha', function (){
+    return captcha_img('flat');
+})->name('captcha-refresh');
 
 
 

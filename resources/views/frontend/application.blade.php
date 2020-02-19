@@ -34,7 +34,7 @@
                         <div class="col-md-4">
                             <div class="form-group">
                                 <label for="gender">ПОЛ</label>
-                                <select name="gender" id="gender">
+                                <select name="gender" id="gender" >
                                     <option>Пожалуйста выберите</option>
                                     <option value="1">Муж.</option>
                                     <option value="2">Жен.</option>

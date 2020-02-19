@@ -19,7 +19,7 @@
         .header-image{
             position: relative;
             background-color: #000;
-            height: 40em;
+            height: 20em;
             z-index: -1;
             width: 100%
         }

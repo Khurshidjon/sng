@@ -197,3 +197,6 @@ footer{
         font-weight:600
     }
 }
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
