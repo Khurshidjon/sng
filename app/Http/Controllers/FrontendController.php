@@ -3,13 +3,15 @@
 namespace App\Http\Controllers;
 
 use App\Country;
+use App\Partner;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
 {
     public function index()
     {
-        return view('frontend.index');
+        toastr()->success('Data has been saved successfully!');
+        return view('frontend.landing-page');
     }
 
     public function leaveApplication()
@@ -34,8 +36,19 @@ class FrontendController extends Controller
     public function becomePartners(Request $request)
     {
         $request->validate([
-            'captcha' => 'required|captcha'
+            'captcha' => 'required|captcha',
+            'name' => 'required',
+            'phone' => 'required',
+            'email' => 'required|unique:partners',
+            'company' => 'string:255',
         ]);
+        $partner = new Partner();
+        $partner->name = $request->name;
+        $partner->email = $request->email;
+        $partner->phone = $request->phone;
+        $partner->company = $request->company;
+        $partner->save();
+        toastr()->success('Data has been saved successfully!');
         return redirect()->back();
     }
 
