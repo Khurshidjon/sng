@@ -9,15 +9,21 @@ http://themeforest.net/licenses
 
 
 <!-- Mirrored from demo.highhay.com/firetime/index-video.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 20 Feb 2020 09:52:37 GMT -->
+<style>
+    .helpful-link-item{
+        font-size: 25px;
+        color: #ffffff;
+    }
+    .helpful-link-item:hover{
+        color: rgb(219,147,29);
+        text-decoration: underline;
+    }
+</style>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 
     <!-- Page Title Here -->
     <title>Форум регинов СНГ ' 20</title>
-    @toastr_css
-    @jquery
-    @toastr_js
-    @toastr_render
 
     <!-- Page Description Here -->
     <meta name="description" content="Создавая диалог и кооперацию регионов СНГ">
@@ -45,8 +51,11 @@ http://themeforest.net/licenses
     <link rel="stylesheet" href="{{ asset('landing') }}/css/main.css">
     <!-- alt layout -->
     <!--	<link rel="stylesheet" href="./css/style-color1.css">-->
-
+    @toastr_css
     <script src="{{ asset('landing') }}/js/vendor/modernizr-2.7.1.min.js"></script>
+    @jquery
+    @toastr_js
+    @toastr_render
 </head>
 
 <body id="menu" class="hh-body alt-bg left-light">
@@ -105,7 +114,6 @@ http://themeforest.net/licenses
     <!-- End of menu -->
 </header>
 <!-- END OF site header Menu-->
-
 <!-- BEGIN OF page cover -->
 <div class="hh-cover page-cover">
     <!-- Cover Background -->
@@ -265,6 +273,11 @@ http://themeforest.net/licenses
                         <h4>О Форуме</h4>
                         <p>
                             В ходе заседания Совета глав государств СНГ 10-11 октября 2019 года в г. Ашхабаде (Туркменистан) обсужден комплекс вопросов, направленных на развитие и укрепление многостороннего сотрудничества в рамках Содружества, состоялся обмен мнениями по международным проблемам, представляющим взаимный интерес.
+                            По итогам саммита были приняты ряд документов, в том числе Решение
+                            о переходе председательства в СНГ к Республике Узбекистан в 2020 году
+                            и Декларация о стратегическом экономическом сотрудничестве государств-участников СНГ.
+                            В рамках Ашхабадского саммита государств-участников СНГ Президентом Республики Узбекистана Ш.М. Мирзиёевым было отмечено, что в период председательства Узбекистана в Содружестве Независимых Государств, планируется проведение более 60 мероприятий, в том числе Форума регионов СНГ.
+                            Форум регионов СНГ послужит площадкой для координации взаимодействия регионов по разработке и реализации проектов, направленных на достижение результатов в торгово-экономической, инвестиционной, транспортно-коммуникационной, сельскохозяйственной, туристской, образовательной сферах, а также поддержке культурных связей между регионами государств - участников СНГ.
                         </p>
                         <!--<div class="illustr">
                             <img src="/img/bg-default4.jpg" alt="Illustration">
@@ -361,7 +374,7 @@ http://themeforest.net/licenses
                         <li class="column anim">
                             <div class="item-desc">
                                 <div class="desc">
-                                    <p><a target="_blank" href="http://invest.gov.uz/ru/investor-taxonomy/potential/">Инвестиционный потенциал Узбекистана</a></p>
+                                    <p><a class="helpful-link-item" target="_blank" href="http://invest.gov.uz/ru/investor-taxonomy/potential/">Инвестиционный потенциал Узбекистана</a></p>
                                 </div>
                             </div>
                         </li>
@@ -369,7 +382,7 @@ http://themeforest.net/licenses
                         <li class="column anim">
                             <div class="item-desc">
                                 <div class="desc">
-                                    <p><a target="_blank" href="https://data.gov.uz/ru">Портал открытых данных Республики Узбекистан</a></p>
+                                    <p><a class="helpful-link-item" target="_blank" href="https://data.gov.uz/ru">Портал открытых данных Республики Узбекистан</a></p>
                                 </div>
                             </div>
                         </li>
@@ -377,7 +390,7 @@ http://themeforest.net/licenses
                         <li class="column anim">
                             <div class="item-desc">
                                 <div class="desc">
-                                    <p><a target="_blank" href="https://drive.google.com/drive/folders/1ant5NY2wkIiJwSCfAJZHK4VaG2fYAirR">Регионы Узбекистана</a></p>
+                                    <p><a class="helpful-link-item" target="_blank" href="https://drive.google.com/drive/folders/1ant5NY2wkIiJwSCfAJZHK4VaG2fYAirR">Регионы Узбекистана</a></p>
                                 </div>
                             </div>
                         </li>
@@ -385,10 +398,27 @@ http://themeforest.net/licenses
                         <li class="column anim">
                             <div class="item-desc">
                                 <div class="desc">
-                                    <p><a target="_blank" href="https://mift.uz/ru/menu/ob-uzbekistane">Об Узбекистане</a></p>
+                                    <p><a  class="helpful-link-item" target="_blank" href="https://mift.uz/ru/menu/ob-uzbekistane">Об Узбекистане</a></p>
                                 </div>
                             </div>
                         </li>
+                        <!-- item -->
+                        <li class="column anim">
+                            <div class="item-desc">
+                                <div class="desc">
+                                    <p><a  class="helpful-link-item" target="_blank" href="http://cis.minsk.by/map">Государства – участники СНГ</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li class="column anim">
+                            <div class="item-desc">
+                                <div class="desc">
+                                    <p><a  class="helpful-link-item" target="_blank" href="https://www.uzexpocentre.uz/">Узэкспоцентр</a></p>
+                                </div>
+                            </div>
+                        </li>
+
 
                     </ul>
                     <!-- End of features/services/offers -->
@@ -530,8 +560,7 @@ http://themeforest.net/licenses
     <!-- social networks -->
     <div class="contact">
         <ul class="socials">
-            <li><a class="circ-btn" href="http://facebook.com/"><i class="icon ion-social-facebook"></i></a></li>
-            <li><a class="circ-btn" href="http://twitter.com"><i class="icon ion-social-twitter"></i></a></li>
+            <li><a class="circ-btn" href="https://www.facebook.com/mineconomy.uz"><i class="icon ion-social-facebook"></i></a></li>
         </ul>
     </div>
 
@@ -539,21 +568,6 @@ http://themeforest.net/licenses
     <div class="note">
         <p>&copy; Авторское право <a href="http://mineconomy.gov.uz/" target="_blank"><span class="marked">МИНИСТЕРСТВО ЭКОНОМИКИ И ПРОМЫШЛЕННОСТИ РЕСПУБЛИКИ УЗБЕКИСТАН</span></a> {{ date("Y") }}</p>
     </div>
-
-    <!-- subscription form -->
- {{--   <div class="subscription">
-        <h3 class="title">Подписаться на
-            <br> Новостная рассылка</h3>
-        <!-- Begin Ajax subscription form  subscription-form -->
-        <form id="subscription-form" class="form send_email_form" method="post" action="http://demo.highhay.com/firetime/ajaxserver/serverfile.php">
-            <p class="feedback gone form-success-visible">Thank you for your subscription. We will inform you.</p>
-            <input id="reg-email" class="input form-success-invisible" name="email" type="email" required placeholder="your@email.address" data-validation-type="email">
-            <button id="submit-email" class="btn circ-btn form-success-invisible" name="submit_email">
-                <span class="ion-checkmark"></span>
-            </button>
-        </form>
-    </div>--}}
-
 
     <!-- Arrows Scroll down arrow -->
     <!-- Move it next to fp nav using javascript -->
@@ -598,7 +612,6 @@ http://themeforest.net/licenses
         })
     })
 </script>
-
 </body>
 </html>
 

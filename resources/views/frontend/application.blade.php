@@ -3,7 +3,7 @@
     <div class="container">
         <div class="form-wrapper mt-5 p-4" style="margin-bottom: 6.2em">
             <div class="form-wrapper-body text-center">
-                <h2>ЗАЯВКА НА УЧАСТИЕ В ФОРУМ РЕГИОНОВ СНГ ' 20</h2>
+                <h2>ЗАЯВКА НА УЧАСТИЕ В ФОРУМЕ РЕГИОНОВ СНГ ' 20</h2>
             </div>
             <fieldset>
                 <form action="{{ route('frontend.application-create') }}" class="form" method="post">
