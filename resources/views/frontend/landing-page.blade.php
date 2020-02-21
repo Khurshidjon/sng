@@ -292,7 +292,7 @@ http://themeforest.net/licenses
                     <!-- title and description -->
                     <header class="title-desc">
                         <h3 class="title">Документы</h3>
-                        <h2>Форум регинов <br> СНГ ' 20</h2>
+                        <h2>Форум регионов <br> СНГ ' 20</h2>
                         <p> Ташкент. Узбекистан <span style="font-size: 40px" class="ion-location"></span></p>
                     </header>
                 </div>
