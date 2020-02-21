@@ -18,6 +18,9 @@ http://themeforest.net/licenses
         color: rgb(219,147,29);
         text-decoration: underline;
     }
+    .about-forum{
+        line-height: 22px;
+    }
 </style>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -78,7 +81,7 @@ http://themeforest.net/licenses
         <a href="{{ route('frontend.index') }}">
             <h2 class="logo">
                     <span class="logo-img">
-                        <img class="light-logo" src="{{ asset('landing') }}/img/logo.png" alt="Logo">
+                        <img class="light-logo" src="{{ asset('landing') }}/img/logo1.png" alt="Logo">
                     </span>
                 <span class="logo-text">
                         <span class="title">Форум регионов СНГ ' 20</span>
@@ -271,12 +274,16 @@ http://themeforest.net/licenses
                     <!-- title and description -->
                     <div class="title-desc">
                         <h4>О Форуме</h4>
-                        <p>
+                        <p class="about-forum">
                             В ходе заседания Совета глав государств СНГ 10-11 октября 2019 года в г. Ашхабаде (Туркменистан) обсужден комплекс вопросов, направленных на развитие и укрепление многостороннего сотрудничества в рамках Содружества, состоялся обмен мнениями по международным проблемам, представляющим взаимный интерес.
+                        </p>
+                        <p class="about-forum">
                             По итогам саммита были приняты ряд документов, в том числе Решение
                             о переходе председательства в СНГ к Республике Узбекистан в 2020 году
                             и Декларация о стратегическом экономическом сотрудничестве государств-участников СНГ.
                             В рамках Ашхабадского саммита государств-участников СНГ Президентом Республики Узбекистана Ш.М. Мирзиёевым было отмечено, что в период председательства Узбекистана в Содружестве Независимых Государств, планируется проведение более 60 мероприятий, в том числе Форума регионов СНГ.
+                        </p>
+                        <p class="about-forum">
                             Форум регионов СНГ послужит площадкой для координации взаимодействия регионов по разработке и реализации проектов, направленных на достижение результатов в торгово-экономической, инвестиционной, транспортно-коммуникационной, сельскохозяйственной, туристской, образовательной сферах, а также поддержке культурных связей между регионами государств - участников СНГ.
                         </p>
                         <!--<div class="illustr">
@@ -320,14 +327,14 @@ http://themeforest.net/licenses
                     <div class="title-desc">
                         <!-- Action button -->
                         <div class="cta-btns">
-                            <h5>ПРОГРАММА мероприятий Форума регионов СНГ</h5>
-                            <a class="btn arrow-circ-btn"  href="{{ asset('landing/files/programma.doc') }}" download>
+                            <h5>КОНЦЕПЦИЯ Форума регионов СНГ</h5>
+                            <a class="btn arrow-circ-btn"  href="{{ asset('landing/files/konsepsiya.doc') }}" download>
                                 <span class="txt">Скачать</span>
                                 <span class="arrow-icon"></span>
                             </a>
                             <hr>
-                            <h5>КОНЦЕПЦИЯ Форума регионов СНГ</h5>
-                            <a class="btn arrow-circ-btn"  href="{{ asset('landing/files/konsepsiya.doc') }}" download>
+                            <h5>ПРОГРАММА мероприятий Форума регионов СНГ</h5>
+                            <a class="btn arrow-circ-btn"  href="{{ asset('landing/files/programma.doc') }}" download>
                                 <span class="txt">Скачать</span>
                                 <span class="arrow-icon"></span>
                             </a>
@@ -414,7 +421,7 @@ http://themeforest.net/licenses
                         <li class="column anim">
                             <div class="item-desc">
                                 <div class="desc">
-                                    <p><a  class="helpful-link-item" target="_blank" href="https://www.uzexpocentre.uz/">Узэкспоцентр</a></p>
+                                    <p><a  class="helpful-link-item" target="_blank" href="https://www.uzexpocentre.uz/">АО НВК "Узэкспоцентр"</a></p>
                                 </div>
                             </div>
                         </li>
