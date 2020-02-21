@@ -13,6 +13,10 @@ http://themeforest.net/licenses
     .helpful-link-item{
         font-size: 25px;
         color: #ffffff;
+        line-height: 26px;
+    }
+    .anim-wrapper p{
+        margin-bottom: 40px;
     }
     .helpful-link-item:hover{
         color: rgb(219,147,29);
@@ -25,7 +29,7 @@ http://themeforest.net/licenses
         height: 86px !important;
     }
     .logo-text{
-        margin-top: 17px !important;
+        margin-top: 7px !important;
     }
 </style>
 <head>
@@ -91,7 +95,7 @@ http://themeforest.net/licenses
                     </span>
                 <span class="logo-text">
                         <span class="title">Форум регионов СНГ ' 20</span>
-                        <span class="desc">Ташкент, Узбекистан</span>
+                        <span class="desc">Ташкент, Республика Узбекистан<br> Сентябрь, 2020</span>
                     </span>
             </h2>
         </a>
@@ -318,8 +322,8 @@ http://themeforest.net/licenses
                     <!-- title and description -->
                     <header class="title-desc">
                         <h3 class="title">Документы</h3>
-                        <h2>Форум регионов <br> СНГ ' 20</h2>
-                        <p> Ташкент. Узбекистан <span style="font-size: 40px" class="ion-location"></span></p>
+                        <h2>Форума регионов <br> СНГ ' 20</h2>
+                        <p> Ташкент, Узбекистан <span style="font-size: 40px" class="ion-location"></span></p>
                     </header>
                 </div>
             </div>
@@ -361,25 +365,6 @@ http://themeforest.net/licenses
 
             <!-- right elements -->
             <div class="c-right anim">
-                <div class="wrapper">
-                    <!-- title -->
-                    <header class="title-desc">
-                        <h2>Полезные ссылки</h2>
-                    </header>
-
-                    <!-- Action button -->
-                    <div class="cta-btns">
-                        <a class="btn arrow-circ-btn"  href="#partner">
-                            <span class="txt">Контакты</span>
-                            <span class="arrow-icon"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- end of right elements -->
-
-            <!-- left elements -->
-            <div class="c-left anim">
                 <div class="wrapper">
                     <!-- Begin of features/services/offers -->
                     <ul class="item-list row small-up-1 medium-up-2 large-up-2">
@@ -437,6 +422,25 @@ http://themeforest.net/licenses
                     <!-- End of features/services/offers -->
                 </div>
             </div>
+            <!-- end of right elements -->
+
+            <!-- left elements -->
+            <div class="c-left anim">
+                <div class="wrapper">
+                    <!-- title -->
+                    <header class="title-desc">
+                        <h2>Полезные ссылки</h2>
+                    </header>
+
+                    <!-- Action button -->
+                    <div class="cta-btns">
+                        <a class="btn arrow-circ-btn"  href="#partner">
+                            <span class="txt">Контакты</span>
+                            <span class="arrow-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <!-- end of left elements -->
 
         </section>
@@ -465,7 +469,7 @@ http://themeforest.net/licenses
                                 <h3 class="title">Адрес</h3>
                                 <div class="desc">
                                     <p>
-                                        ул. Ислама Каримова, 45а, Ташкент, Узбекистан 100003
+                                        ул. Ислама Каримова, 45а, Ташкент, Узбекистан, 100003
                                     </p>
                                 </div>
                             </div>
@@ -477,8 +481,6 @@ http://themeforest.net/licenses
                                 <div class="desc">
                                     <p>
                                         Тел : <a href="tel: +998 (71) 232 65-90">+998 (71) 232 65-90</a>
-                                        <br>
-                                        Тел : <a href="tel: +998 (90) 930-39-25">+998 (97) 430-39-25</a>
                                         <br>
                                         Email : <a href="mailto: info@mineconomy.uz">info@mineconomy.uz</a>
                                         <br>
@@ -579,7 +581,7 @@ http://themeforest.net/licenses
 
     <!-- Notes -->
     <div class="note">
-        <p>&copy; Авторское право <a href="http://mineconomy.gov.uz/" target="_blank"><span class="marked">МИНИСТЕРСТВО ЭКОНОМИКИ И ПРОМЫШЛЕННОСТИ РЕСПУБЛИКИ УЗБЕКИСТАН</span></a> {{ date("Y") }}</p>
+        <p>&copy; Авторское право <a href="http://mineconomy.gov.uz/" target="_blank"><span class="marked">Министерство экономики и промышленности Республики Узбекистан</span></a>, {{ date("Y") }}</p>
     </div>
 
     <!-- Arrows Scroll down arrow -->
