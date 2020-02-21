@@ -21,6 +21,12 @@ http://themeforest.net/licenses
     .about-forum{
         line-height: 22px;
     }
+    .light-logo{
+        height: 86px !important;
+    }
+    .logo-text{
+        margin-top: 17px !important;
+    }
 </style>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
