@@ -72,7 +72,7 @@ http://themeforest.net/licenses
                         <img class="light-logo" src="{{ asset('landing') }}/img/logo.png" alt="Logo">
                     </span>
                 <span class="logo-text">
-                        <span class="title">Форум регинов СНГ ' 20</span>
+                        <span class="title">Форум регионов СНГ ' 20</span>
                         <span class="desc">Ташкент, Узбекистан</span>
                     </span>
             </h2>
@@ -195,7 +195,7 @@ http://themeforest.net/licenses
                             </div>-->
                             <!-- Title -->
                             <header class="title">
-                                <h2><strong>Форум регинов</strong> <br> СНГ ' 20</h2>
+                                <h2><strong>Форум регионов</strong> <br> СНГ ' 20</h2>
                                 <h3>Создавая диалог и кооперацию регионов СНГ</h3>
                             </header>
                             <!-- desc -->

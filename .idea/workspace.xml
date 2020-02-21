@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0de31a9-e095-47fe-a8e4-1dc7d68861a8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/frontend/application.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/application.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/frontend/landing-page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/frontend/landing-page.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/landing/files" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/landing/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -148,6 +149,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\Laravel\sng\public\landing\img" />
       <recent name="D:\OSPanel\domains\Laravel\sng\public\landing\files" />
       <recent name="D:\OSPanel\domains\Laravel\sng\public\landing" />
       <recent name="D:\OSPanel\domains\Laravel\sng\resources\views\frontend" />
@@ -173,7 +175,7 @@
       <workItem from="1582093341663" duration="4471000" />
       <workItem from="1582123159234" duration="3763000" />
       <workItem from="1582176453888" duration="10000" />
-      <workItem from="1582194022261" duration="17608000" />
+      <workItem from="1582194022261" duration="19344000" />
     </task>
     <servers />
   </component>

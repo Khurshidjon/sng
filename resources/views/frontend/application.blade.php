@@ -2,11 +2,10 @@
 @section('content')
     <div class="container">
         <div class="form-wrapper mt-5 p-4" style="margin-bottom: 6.2em">
-            <div class="form-wrapper-body">
-                <h2>ЗАЯВКА НА УЧАСТИЕ В ТАШКЕНТСКИЙ МЕЖДУНАРОДНЫЙ ЭКОНОМИЧЕСКИЙ ФОРУМ - 2020</h2>
+            <div class="form-wrapper-body text-center">
+                <h2>ЗАЯВКА НА УЧАСТИЕ В ФОРУМ РЕГИОНОВ СНГ ' 20</h2>
             </div>
             <fieldset>
-                <legend>ТАШКЕНТ - 2020</legend>
                 <form action="{{ route('frontend.application-create') }}" class="form" method="post">
                     {{ csrf_field() }}
                     <div class="row">
