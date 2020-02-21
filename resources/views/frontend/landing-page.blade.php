@@ -163,9 +163,9 @@ http://themeforest.net/licenses
                         <div class="clock-wrapper">
                             <div class="tile tile-days">
                                 <span class="days">2020</span>
-                                <span class="txt"></span>
+                                <span class="txt">сентябрь</span>
                             </div>
-                            <div class="clock-hms">
+                          {{--  <div class="clock-hms">
                                 <div class="tile tile-minutes">
                                     <span class="minutes">10</span>
                                     <span class="txt">сентябрь</span>
@@ -174,7 +174,7 @@ http://themeforest.net/licenses
                                     <span class="seconds">11</span>
                                     <span class="txt">сентябрь</span>
                                 </div>
-                            </div>
+                            </div>--}}
                         </div>
                     </div>
 
@@ -315,13 +315,13 @@ http://themeforest.net/licenses
                         <!-- Action button -->
                         <div class="cta-btns">
                             <h5>ПРОГРАММА мероприятий Форума регионов СНГ</h5>
-                            <a class="btn arrow-circ-btn"  href="{{ asset('landing/files/about-forum.docx') }}" download>
+                            <a class="btn arrow-circ-btn"  href="{{ asset('landing/files/programma.doc') }}" download>
                                 <span class="txt">Скачать</span>
                                 <span class="arrow-icon"></span>
                             </a>
                             <hr>
                             <h5>КОНЦЕПЦИЯ Форума регионов СНГ</h5>
-                            <a class="btn arrow-circ-btn"  href="{{ asset('landing/files/about-forum.docx') }}" download>
+                            <a class="btn arrow-circ-btn"  href="{{ asset('landing/files/konsepsiya.doc') }}" download>
                                 <span class="txt">Скачать</span>
                                 <span class="arrow-icon"></span>
                             </a>
@@ -447,6 +447,8 @@ http://themeforest.net/licenses
                                         Тел : <a href="tel: +998 (71) 232 65-90">+998 (71) 232 65-90</a>
                                         <br>
                                         Тел : <a href="tel: +998 (90) 930-39-25">+998 (90) 930-39-25</a>
+                                        <br>
+                                        Email : <a href="mailto: inbox@example.com">inbox@example.com</a>
                                     </p>
                                 </div>
                             </div>
@@ -502,18 +504,21 @@ http://themeforest.net/licenses
                                     <input id="mes-e-mail" type="email" placeholder="" name="email" class="form-success-clean" autocomplete="off" required>
                                 </div>
                             </div>
-                            <div class="fields clearfix no-border">
-                                <label for="mes-company">Компания</label>
-                                <textarea id="mes-company" placeholder="..." name="company" class="form-success-clean"></textarea>
+                            <div class="fields clearfix">
+                                <div class="input bottom">
+                                    <label for="mes-company">Компания</label>
+                                    <textarea id="mes-company" placeholder="..." name="company" class="form-success-clean"></textarea>
 
-                                <div>
-                                    <p class="message-ok invisible form-text-feedback form-success-visible">Your message has been sent, thank you.</p>
+                                    <div>
+                                        <p class="message-ok invisible form-text-feedback form-success-visible">Your message has been sent, thank you.</p>
+                                    </div>
                                 </div>
                             </div>
+                            <hr>
                             <div class="fields clearfix no-border">
-                                <label for="captcha"></label>
-                                <span id="captcha-img" class="form-success-clean">{!! captcha_img('flat') !!}</span> <span class="ion-android-refresh"  style="cursor: pointer" id="refresh-captcha"></span>
-                                <input type="text" id="captcha" name="captcha"  class="form-success-clean" autocomplete="off" required>
+                                <label style="left: unset; top: unset; width: 127px; cursor: pointer" for="captcha" id="refresh-captcha"><span>{!! captcha_img('flat') !!}</span></label>
+{{--                                <span id="captcha-img" class="form-success-clean">{!! captcha_img('flat') !!}</span> <span class="ion-android-refresh"  style="cursor: pointer" ></span>--}}
+                                <input style="padding-left: 137px;" type="text" id="captcha" name="captcha"  class="form-success-clean" autocomplete="off" required>
                             </div>
                         </form>
 
@@ -588,7 +593,7 @@ http://themeforest.net/licenses
 <!-- Javascript main files -->
 <script src="{{ asset('landing') }}/js/main.js"></script>
 <script>
-    $('#refresh-captcha').on('click', function (e) {
+    $(document).on('click', '#refresh-captcha', function (e) {
         e.preventDefault();
         $.ajax({
             url: '{{ route('captcha-refresh') }}',
@@ -596,7 +601,7 @@ http://themeforest.net/licenses
                 "_token": "{{ csrf_token() }}",
             },
             success: function (data) {
-                $('#captcha-img').html(data);
+                $('#refresh-captcha').html(data);
                 // console.log(data);
             }
         })
