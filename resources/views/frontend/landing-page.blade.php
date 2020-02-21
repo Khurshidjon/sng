@@ -20,7 +20,7 @@ http://themeforest.net/licenses
     @toastr_render
 
     <!-- Page Description Here -->
-    <meta name="description" content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
+    <meta name="description" content="Создавая диалог и кооперацию регионов СНГ">
 
     <!-- Disable screen scaling-->
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
@@ -51,7 +51,7 @@ http://themeforest.net/licenses
 
 <body id="menu" class="hh-body alt-bg left-light">
 <!--[if lt IE 8]>
-<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<p class="browsehappy">Создавая диалог и кооперацию регионов СНГ</p>
 <![endif]-->
 
 <!-- Page Loader -->
@@ -196,7 +196,7 @@ http://themeforest.net/licenses
                             <!-- Title -->
                             <header class="title">
                                 <h2><strong>Форум регинов</strong> <br> СНГ ' 20</h2>
-                                <h3>Создавая диалог и кооперация регионов СНГ.</h3>
+                                <h3>Создавая диалог и кооперацию регионов СНГ</h3>
                             </header>
                             <!-- desc -->
                         </div>
@@ -262,17 +262,10 @@ http://themeforest.net/licenses
                 <div class="wrapper">
                     <!-- title and description -->
                     <div class="title-desc">
-                        <h4>Основные задачи Форума:</h4>
-                        <ul>
-                            <li>определение места и перспектив регионов в интеграционных процессах;</li>
-                            <li>создание условий для организации взаимовыгодных экономических отношений и укрепления дружественных партнерских связей между регионами государств - участников СНГ;</li>
-                            <li>налаживание взаимовыгодного и практического сотрудничества между деловыми кругами регионов государств - участников СНГ;</li>
-                            <li>установление диалога по широкому кругу вопросов регионального сотрудничества;</li>
-                            <li>развитие взаимодействия между государствами - участниками СНГ в несырьевых секторах экономики;</li>
-                            <li>увеличение объемов межрегионального и приграничного инвестирования, стимулирование развития туристского обмена между государствами - участниками СНГ;</li>
-                            <li>повышение уровня кооперации в промышленной сфере, разработка совместных программ и проектов;</li>
-                        </ul>
-
+                        <h4>О Форуме</h4>
+                        <p>
+                            В ходе заседания Совета глав государств СНГ 10-11 октября 2019 года в г. Ашхабаде (Туркменистан) обсужден комплекс вопросов, направленных на развитие и укрепление многостороннего сотрудничества в рамках Содружества, состоялся обмен мнениями по международным проблемам, представляющим взаимный интерес.
+                        </p>
                         <!--<div class="illustr">
                             <img src="/img/bg-default4.jpg" alt="Illustration">
                         </div>-->
@@ -346,13 +339,12 @@ http://themeforest.net/licenses
                     <!-- title -->
                     <header class="title-desc">
                         <h2>Полезные ссылки</h2>
-                        <p>Вся информация о нашей стране, которую вы знали и не знаете, находится на левой стороне нашей страницы.</p>
                     </header>
 
                     <!-- Action button -->
                     <div class="cta-btns">
-                        <a class="btn arrow-circ-btn"  href="#contact">
-                            <span class="txt">Связаться с нами</span>
+                        <a class="btn arrow-circ-btn"  href="#partner">
+                            <span class="txt">Контакты</span>
                             <span class="arrow-icon"></span>
                         </a>
                     </div>
@@ -420,7 +412,6 @@ http://themeforest.net/licenses
                     <!-- title -->
                     <header class="title-desc">
                         <h2 class="page-title">Контакты</h2>
-                        <p>Нужна помощь или просто хочешь сказать привет?</p>
                     </header>
 
                     <!-- Begin of contact list -->
@@ -431,9 +422,7 @@ http://themeforest.net/licenses
                                 <h3 class="title">Адрес</h3>
                                 <div class="desc">
                                     <p>
-                                        Адрес форума
-                                        <br>кйукнцшг3ну цг3ркшг2р
-                                        <br> 2кн23 2рк3
+                                        ул. Ислама Каримова, 45а, Ташкент, Узбекистан 100003
                                     </p>
                                 </div>
                             </div>
@@ -446,9 +435,11 @@ http://themeforest.net/licenses
                                     <p>
                                         Тел : <a href="tel: +998 (71) 232 65-90">+998 (71) 232 65-90</a>
                                         <br>
-                                        Тел : <a href="tel: +998 (90) 930-39-25">+998 (90) 930-39-25</a>
+                                        Тел : <a href="tel: +998 (90) 930-39-25">+998 (97) 430-39-25</a>
                                         <br>
-                                        Email : <a href="mailto: inbox@example.com">inbox@example.com</a>
+                                        Email : <a href="mailto: info@mineconomy.uz">info@mineconomy.uz</a>
+                                        <br>
+                                        Email : <a href="mailto: nkhusanov@mineconomy.uz">nkhusanov@mineconomy.uz</a>
                                     </p>
                                 </div>
                             </div>
@@ -550,7 +541,7 @@ http://themeforest.net/licenses
     </div>
 
     <!-- subscription form -->
-    <div class="subscription">
+ {{--   <div class="subscription">
         <h3 class="title">Подписаться на
             <br> Новостная рассылка</h3>
         <!-- Begin Ajax subscription form  subscription-form -->
@@ -561,14 +552,14 @@ http://themeforest.net/licenses
                 <span class="ion-checkmark"></span>
             </button>
         </form>
-    </div>
+    </div>--}}
 
 
     <!-- Arrows Scroll down arrow -->
     <!-- Move it next to fp nav using javascript -->
     <div class="s-footer scrolldown">
         <a class="down btn">
-            <span class="text">Вращать мышь</span>
+            <span class="text"></span>
         </a>
     </div>
     <!-- End of Scroll down arrow -->
