@@ -85,8 +85,27 @@ http://themeforest.net/licenses
             if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
             return i;
         }
-
     </script>
+
+    @php
+        $lang = App::getLocale();
+        if ($lang == 'uz'){
+            $week = ['Yakshanba', 'Dushanba', 'Seshanba', 'Chorshanba', 'Payshanba', 'Juma', 'Shanba'];
+            $years = ['Yanvar', 'Fevral', 'Mart', 'Aprel', 'May', 'Iyun', 'Iyul', 'Avgust', 'Sentabr', 'Oktabr', 'Noyabr', 'Dekabr'];
+        }elseif ($lang == 'en'){
+            $week = [ 'Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
+            $years = ['январь', 'февраль', 'март', 'апрель', 'май', 'июнь', 'июль', 'август', 'сентябрь', 'октябрь', 'ноябрь', 'декабрь'];
+        }elseif($lang == 'ru'){
+            $week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            $years = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        }elseif($lang == 'ar'){
+            $week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            $years = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        }elseif($lang == 'tr'){
+            $week = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+            $years = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+        }
+    @endphp
 </head>
 
 <body id="menu" class="hh-body alt-bg left-light" onload="startTime()">
@@ -98,7 +117,7 @@ http://themeforest.net/licenses
 <div class="page-loader" id="page-loader">
     <div>
         <div class="icon ion-spin"></div>
-        <p>loading</p>
+        <p>загрузка ...</p>
     </div>
 </div>
 
@@ -113,7 +132,7 @@ http://themeforest.net/licenses
                     </span>
                 <span class="logo-text">
                         <span class="title">Форум регионов СНГ ' 20</span>
-                        <span class="desc">Ташкент, Республика Узбекистан<br> Сентябрь, 2020 <span style="float: right" id="dynamicClock"></span></span>
+                        <span class="desc">Ташкент, Республика Узбекистан<br> Сентябрь, 2020</span>
                     </span>
             </h2>
         </a>
@@ -600,6 +619,10 @@ http://themeforest.net/licenses
     <!-- Notes -->
     <div class="note">
         <p>&copy; Авторское право <a href="http://mineconomy.gov.uz/" target="_blank"><span class="marked">Министерство экономики и промышленности Республики Узбекистан</span></a>, {{ date("Y") }}</p>
+        <p style="font-size: 20px">
+            <span>{{ date('d') .' '. $years[date('n')-1] .' '. date('Y') .' '. $week[date('w')] . ' '}} </span>
+            <span id="dynamicClock"></span>
+        </p>
     </div>
 
     <!-- Arrows Scroll down arrow -->

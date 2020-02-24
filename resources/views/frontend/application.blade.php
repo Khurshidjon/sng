@@ -60,16 +60,62 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-md-4">
                             <div class="form-group">
                                 <label for="birthday">Дата рождения</label>
                                 <input type="text" id="birthday" class="form-control">
                             </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-4">
                             <div class="form-group">
                                 <label for="place_born">Место рождения</label>
                                 <input type="text" name="place_born" class="form-control" id="place_born">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="number_passport">Номер паспорта</label>
+                                <input type="text" name="number_passport" class="form-control" id="number_passport">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="theme">Тематика участия</label>
+                                <input type="text" id="theme" class="form-control" name="theme">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="goal">Цель участия</label>
+                                <input type="text" name="goal" class="form-control" id="goal">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="organization">Организация</label>
+                                <input type="text" name="organization" class="form-control" id="organization">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="position">Должность</label>
+                                <input type="text" id="position" class="form-control" name="position">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="phone">Контактный телефон </label>
+                                <input type="text" name="phone" class="form-control" id="phone">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="email">Контактный электронный адрес</label>
+                                <input type="email" name="email" class="form-control" id="email">
                             </div>
                         </div>
                     </div>
