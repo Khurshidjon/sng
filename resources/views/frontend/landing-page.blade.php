@@ -69,9 +69,27 @@ http://themeforest.net/licenses
     @jquery
     @toastr_js
     @toastr_render
+    <script>
+        function startTime() {
+            var today = new Date();
+            var h = today.getHours();
+            var m = today.getMinutes();
+            var s = today.getSeconds();
+            m = checkTime(m);
+            s = checkTime(s);
+            document.getElementById('dynamicClock').innerHTML =
+                h + ":" + m + ":" + s + " " + "(GMT +5)";
+            var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+            if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+            return i;
+        }
+
+    </script>
 </head>
 
-<body id="menu" class="hh-body alt-bg left-light">
+<body id="menu" class="hh-body alt-bg left-light" onload="startTime()">
 <!--[if lt IE 8]>
 <p class="browsehappy">Создавая диалог и кооперацию регионов СНГ</p>
 <![endif]-->
@@ -95,7 +113,7 @@ http://themeforest.net/licenses
                     </span>
                 <span class="logo-text">
                         <span class="title">Форум регионов СНГ ' 20</span>
-                        <span class="desc">Ташкент, Республика Узбекистан<br> Сентябрь, 2020</span>
+                        <span class="desc">Ташкент, Республика Узбекистан<br> Сентябрь, 2020 <span style="float: right" id="dynamicClock"></span></span>
                     </span>
             </h2>
         </a>

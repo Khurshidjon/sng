@@ -11,17 +11,17 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label for="application_type">Выберите пакет участия <span class="text-danger"><i>*</i></span></label>
+                                <label for="application_type">Гражданство <span class="text-danger"><i>*</i></span></label>
                                 <select name="" class="form-control" id="application_type">
                                     <option>Пожалуйста выберите</option>
-                                    <option value="pro">Премиум</option>
-                                    <option value="free">Стандарт</option>
+                                    <option value="pro">узбек</option>
+                                    <option value="free">рус</option>
                                 </select>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label for="nimadur">Гражданство <span class="text-danger"><i>*</i></span></label>
+                                <label for="nimadur">Страна проживания <span class="text-danger"><i>*</i></span></label>
                                 <select name="" class="form-control" id="nimadur">
                                     <option>Пожалуйста выберите</option>
                                     @foreach($countries as $country)
@@ -32,7 +32,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="form-group">
-                                <label for="gender">ПОЛ</label>
+                                <label for="gender">ПОЛ <span class="text-danger"><i>*</i></span></label>
                                 <select name="gender" id="gender" >
                                     <option>Пожалуйста выберите</option>
                                     <option value="1">Муж.</option>
@@ -56,26 +56,6 @@
                             <div class="form-group">
                                 <label for="middlename_ru">ОТЧЕСТВО <small><i>(на русском языке)</i></small></label>
                                 <input type="text" id="middlename_ru" class="form-control" autocomplete="off">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label for="firstname_en">ИМЯ <small><i>(на английском языке)</i></small></label>
-                                <input type="text" id="firstname_en" class="form-control" autocomplete="off">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label for="lastname_en">ФАМИЛЯ <small><i>(на английском языке)</i></small></label>
-                                <input type="text" id="lastname_en" class="form-control" autocomplete="off">
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-                                <label for="middlename_en">ОТЧЕСТВО <small><i>(на английском языке)</i></small></label>
-                                <input type="text" id="middlename_en" class="form-control" autocomplete="off">
                             </div>
                         </div>
                     </div>
