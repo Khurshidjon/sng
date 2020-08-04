@@ -31,6 +31,28 @@ http://themeforest.net/licenses
     .logo-text{
         margin-top: 7px !important;
     }
+    .cover-bg {
+        position:relative;
+        width:100%;
+        height:100%;
+    }
+    .cover-bg img {
+        width:100%;
+        vertical-align:top;
+    }
+    .cover-bg:after {
+        content:'\A';
+        position:absolute;
+        width:100%; height:100%;
+        top:0; left:0;
+        background:rgba(0,0,0,0.6);
+        opacity:1;
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+    }
+    .cover-bg:hover:after {
+        opacity:1;
+    }
 </style>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
@@ -158,7 +180,7 @@ http://themeforest.net/licenses
             <li><a href="#documents">Документы</a></li>
             <li><a href="#helpful-links">Полезные ссылки</a></li>
             <li><a href="#partner">Контакты</a></li>
-            <li class="cta"><a target="_blank"  href="{{ route('frontend.application') }}">Заявка на участие</a></li>
+            <li class="cta"><a href="#partner">Заявка на участие</a></li>
         </ul>
     </nav>
     <!-- End of menu -->
@@ -167,15 +189,15 @@ http://themeforest.net/licenses
 <!-- BEGIN OF page cover -->
 <div class="hh-cover page-cover">
     <!-- Cover Background -->
-    <div class="cover-bg pos-abs full-size bg-img  bg-blur-0" data-image-src="{{ asset('landing') }}/img/bg-default.jpg"></div>
+    <div class="cover-bg pos-abs full-size bg-img  bg-blur-0" data-image-src="{{ asset('frontend/img/bg.jpg') }}"></div>
 
 
     <!--BEGIN OF Static video bg  - uncomment below to use Video as Background-->
     <div id="container" class="video-container show-for-medium-up">
-        <video autoplay="autoplay" loop="loop"  muted="muted"
-               width="640" height="360">
-            <source src="{{ asset('landing') }}/vid/loop-bg.mp4" type="video/mp4">
-        </video>
+{{--        <video autoplay="autoplay" loop="loop"  muted="muted"--}}
+{{--               width="640" height="360">--}}
+{{--            <source src="{{ asset('landing') }}/vid/loop-bg.mp4" type="video/mp4">--}}
+{{--        </video>--}}
     </div>
     <!--END OF Static video bg-->
 
