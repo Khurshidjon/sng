@@ -157,7 +157,7 @@ http://themeforest.net/licenses
                     </span>
                 <span class="logo-text">
                         <span class="title">Форум регионов СНГ ' 20</span>
-                        <span class="desc">Ташкент, Республика Узбекистан<br> 10 - сентябрь, 2020</span>
+                        <span class="desc">Ташкент, Республика Узбекистан<br> 10 - сентября, 2020</span>
                     </span>
             </h2>
         </a>
@@ -643,7 +643,7 @@ http://themeforest.net/licenses
 
     <!-- Notes -->
     <div class="note">
-        <p>&copy; Авторское право <a href="http://mineconomy.gov.uz/" target="_blank"><span class="marked">Министерство экономики и промышленности Республики Узбекистан</span></a>, {{ date("Y") }}</p>
+        <p>&copy; Авторское право <a href="http://mineconomy.gov.uz/" target="_blank"><span class="marked">Министерство экономического развития и сокращения бедности Республики Узбекистан</span></a>, {{ date("Y") }}</p>
         <p style="font-size: 20px">
             <span>{{ date('d') .' '. $years[date('n')-1] .' '. date('Y') .' '. $week[date('w')] . ' '}} </span>
             <span id="dynamicClock"></span>
