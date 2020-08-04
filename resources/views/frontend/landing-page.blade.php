@@ -157,7 +157,7 @@ http://themeforest.net/licenses
                     </span>
                 <span class="logo-text">
                         <span class="title">Форум регионов СНГ ' 20</span>
-                        <span class="desc">Ташкент, Республика Узбекистан<br> Сентябрь, 2020</span>
+                        <span class="desc">Ташкент, Республика Узбекистан<br> 10 - сентябрь, 2020</span>
                     </span>
             </h2>
         </a>
@@ -229,7 +229,7 @@ http://themeforest.net/licenses
     <div class="section section-home fp-auto-height-responsive" data-section="home">
         <div class="content">
             <!-- Begin of Left Content -->
-            <section class="c-left anim">
+        {{--    <section class="c-left anim">
                 <div class="wrapper fit">
 
                     <!-- Logo Instead of clock -->
@@ -248,7 +248,7 @@ http://themeforest.net/licenses
                                 <span class="days">2020</span>
                                 <span class="txt">сентябрь</span>
                             </div>
-                          {{--  <div class="clock-hms">
+                          --}}{{--  <div class="clock-hms">
                                 <div class="tile tile-minutes">
                                     <span class="minutes">10</span>
                                     <span class="txt">сентябрь</span>
@@ -257,7 +257,7 @@ http://themeforest.net/licenses
                                     <span class="seconds">11</span>
                                     <span class="txt">сентябрь</span>
                                 </div>
-                            </div>--}}
+                            </div>--}}{{--
                         </div>
                     </div>
 
@@ -277,10 +277,10 @@ http://themeforest.net/licenses
                                 <img class="" src="img/logo.png" alt="Logo">
                             </div>-->
                             <!-- Title -->
-                           {{-- <header class="title">
+                           --}}{{-- <header class="title">
                                 <h2><strong>Форум регионов</strong> <br> СНГ ' 20</h2>
                                 <h3>Создавая диалог и кооперацию регионов СНГ</h3>
-                            </header>--}}
+                            </header>--}}{{--
                             <!-- desc -->
                         </div>
                     </div>
@@ -299,7 +299,7 @@ http://themeforest.net/licenses
                     </div>
 
                 </div>
-            </section>
+            </section>--}}
             <!-- End of Right Content -->
         </div>
     </div>
