@@ -226,7 +226,7 @@ http://themeforest.net/licenses
     <div class="section section-home fp-auto-height-responsive" data-section="home">
         <div class="content">
             <!-- Begin of Left Content -->
-            <section class="c-left anim">
+         {{--   <section class="c-left anim">
                 <div class="wrapper fit">
 
                     <!-- Logo Instead of clock -->
@@ -241,11 +241,11 @@ http://themeforest.net/licenses
                              data-date-timezone="+0"
                         ></div>
                         <div class="clock-wrapper">
-                            <div class="tile tile-days">
+                           --}}{{-- <div class="tile tile-days">
                                 <span class="days">2020</span>
                                 <span class="txt">сентябрь</span>
-                            </div>
-                          {{--  <div class="clock-hms">
+                            </div>--}}{{--
+                          --}}{{--  <div class="clock-hms">
                                 <div class="tile tile-minutes">
                                     <span class="minutes">10</span>
                                     <span class="txt">сентябрь</span>
@@ -254,16 +254,16 @@ http://themeforest.net/licenses
                                     <span class="seconds">11</span>
                                     <span class="txt">сентябрь</span>
                                 </div>
-                            </div>--}}
+                            </div>--}}{{--
                         </div>
                     </div>
 
                 </div>
-            </section>
+            </section>--}}
             <!-- End of Left Content -->
 
             <!-- Begin of Right Content -->
-            <section class="c-right anim">
+           {{-- <section class="c-right anim">
                 <div class="wrapper">
 
                     <!-- Title and description -->
@@ -274,10 +274,10 @@ http://themeforest.net/licenses
                                 <img class="" src="img/logo.png" alt="Logo">
                             </div>-->
                             <!-- Title -->
-                            <header class="title">
+                           --}}{{-- <header class="title">
                                 <h2><strong>Форум регионов</strong> <br> СНГ ' 20</h2>
                                 <h3>Создавая диалог и кооперацию регионов СНГ</h3>
-                            </header>
+                            </header>--}}{{--
                             <!-- desc -->
                         </div>
                     </div>
@@ -296,7 +296,7 @@ http://themeforest.net/licenses
                     </div>
 
                 </div>
-            </section>
+            </section>--}}
             <!-- End of Right Content -->
         </div>
     </div>
